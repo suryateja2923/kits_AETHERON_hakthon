@@ -1,0 +1,76 @@
+/* Background upgrade */
+.mode-bg {
+  background: radial-gradient(
+      circle at top,
+      #1e293b,
+      #020617 70%
+    );
+}
+
+/* Container */
+.mode-container {
+  text-align: center;
+  padding: 40px;
+}
+
+/* Title */
+.mode-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #e5e7eb;
+  margin-bottom: 40px;
+}
+
+/* Horizontal layout */
+.mode-buttons-row {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Base button */
+.mode-btn {
+  min-width: 220px;
+  padding: 16px 24px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 14px;
+  border: none;
+  background: #f8fafc;
+  color: #020617;
+  cursor: pointer;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* Hover animation */
+.mode-btn:hover {
+  transform: translateY(-4px) scale(1.03);
+}
+
+/* Glow styles */
+.glow-blue {
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.6);
+}
+
+.glow-green {
+  box-shadow: 0 0 20px rgba(16, 185, 129, 0.6);
+}
+
+.glow-orange {
+  box-shadow: 0 0 20px rgba(245, 158, 11, 0.6);
+}
+
+/* Hover glow intensify */
+.glow-blue:hover {
+  box-shadow: 0 0 35px rgba(59, 130, 246, 0.9);
+}
+
+.glow-green:hover {
+  box-shadow: 0 0 35px rgba(16, 185, 129, 0.9);
+}
+
+.glow-orange:hover {
+  box-shadow: 0 0 35px rgba(245, 158, 11, 0.9);
+}
